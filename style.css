@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.WholePage{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   
+}
+
+.WholePage .compenets{
+    background-color: #1b77fd;
+    padding-top: 8.5rem;
+    padding-bottom: 10rem;
+
+}
+.WholePage .compenets h1{
+    font-weight: bolder;
+    font-size: calc(1.375rem + 1.5vw);
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.WholePage .compenets p{
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+.WholePage .compenets a{
+    text-decoration: none;
+    background-color:rgb(255, 255, 255); 
+    color: black;
+    padding: 12px 19px;
+        border-radius: 8px;
+    transition: 0.4s;
+}
+.WholePage .navbar{
+    background-color: #212529;
+    height: 56px;
+    
+}
+.WholePage .compenets a:hover{
+    background-color: #d3d4d5;
+}
