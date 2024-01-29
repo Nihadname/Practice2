@@ -157,8 +157,8 @@ margin-right: 53px;
 .forthPart{
     height:100%;
 
-
-    margin-bottom: 482px;
+background-color: #fff;
+    margin-bottom: 152px;
     width: 89%;
 
     text-align: center;
@@ -166,7 +166,7 @@ margin-right: 53px;
 .forthPart h2{
     font-size: 2rem;
     line-height: 1.2;
-    margin-right: 182px;
+    margin-right: 338px;
     
 font-weight: 500;
 margin-bottom: 1rem;
@@ -174,7 +174,7 @@ margin-bottom: 1rem;
 .forthPart p{
     font-size: 1.25rem;
     font-weight: 300;
-    padding-left: 480px;
+    padding-left: 327px;
     margin-left: 3px;
     line-height: 1.5;
   
@@ -187,4 +187,15 @@ margin-right: 34px;
 .forthPart p .extra{
     margin-right: 569px;
 
+}
+.TheLast{
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    top: 123px;
+    padding-bottom: 3.3rem;
+}
+.TheLast p{
+    color: #fff;
+    padding-top: 45px;
 }
