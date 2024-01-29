@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .WholePage{
     width: 100%;
@@ -40,8 +41,150 @@
 .WholePage .navbar{
     background-color: #212529;
     height: 56px;
+    display: flex;
+    justify-content: space-between;
     
 }
 .WholePage .compenets a:hover{
     background-color: #d3d4d5;
+}
+.WholePage .navbar .RightPart {
+    padding-top: 0.9rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 7rem;
+}
+.WholePage .navbar .leftPart{
+    padding-top: 0.9rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 7rem;
+}
+.WholePage .navbar .leftPart a{
+    text-decoration: none;
+    color: #fff;
+font-size: 1.25rem;
+}
+.WholePage .navbar .RightPart a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    margin-left: 12px;
+    
+
+
+}
+.WholePage .navbar .RightPart a span{
+    color: #fff;
+}
+.SecondPart{
+    
+    margin-top: 37%; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    width: 66.66666667%;
+    margin-bottom: 9rem;
+}
+.SecondPart .Writing h2{
+    font-size: calc(1.325rem + 0.9vw);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    margin-left: 341px;
+}
+.SecondPart .Writing p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-left: 545px;
+    line-height: 1.5;
+        margin-bottom: 20px;
+
+
+}
+.SecondPart .Writing p span{
+    margin-right: 15px;
+}
+.SecondPart .Writing ul{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: baseline;
+}
+.SecondPart .Writing ul li{
+margin-left:545px ;
+padding-left: -12px;
+    margin-bottom: 10px;
+}
+.ThirdPart{
+    height:100%;
+    width: 100%;
+    padding-bottom : 19rem;
+    background-color: rgba(236, 234, 234, 0.655);
+    margin-bottom: 207px;
+}
+.ThirdPart .WholeWriting h2{
+    font-size: 2rem;
+    line-height: 1.2;
+    
+font-weight: 500;
+margin-bottom: 1rem;
+margin-right: 53px;
+}
+.ThirdPart .WholeWriting{
+  text-align: center;
+  position: relative;
+  top: 119px;
+  margin-left: -367px;
+ 
+}
+.ThirdPart .WholeWriting p{
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding-left: 520px;
+  margin-left: 3px;
+  line-height: 1.5;
+
+      margin-bottom: 20px;
+      color: #000;
+}
+.ThirdPart .WholeWriting p span{
+    margin-right: 32px;
+}
+.ThirdPart .WholeWriting .extra{
+    margin-right: 569px;
+}
+.forthPart{
+    height:100%;
+
+
+    margin-bottom: 482px;
+    width: 89%;
+
+    text-align: center;
+}
+.forthPart h2{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-right: 182px;
+    
+font-weight: 500;
+margin-bottom: 1rem;
+}
+.forthPart p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-left: 480px;
+    margin-left: 3px;
+    line-height: 1.5;
+  
+        margin-bottom: 20px;
+        color: #000;
+}
+.forthPart p span{
+margin-right: 34px;
+}
+.forthPart p .extra{
+    margin-right: 569px;
+
 }
